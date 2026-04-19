@@ -11,13 +11,11 @@ Registro de check-in y check-out
 Consumo de servicios adicionales
 Organización de eventos
 
-Además, se implementan vistas para facilitar la consulta de información relevante como eventos programados y estadísticas de ocupación.
-
 -- Instrucciones de uso
 1. Ejecutar el script SQL completo en el gestor de base de datos (MySQL o HeidiSQL).
 2. Verificar que todas las tablas, vistas, funciones y procedimientos se hayan creado correctamente.
 3. Insertar datos si es necesario para realizar pruebas.
-4. Utilizar consultas SELECT para visualizar información desde las vistas.
+4. Utilizar consultas SELECT para visualizar información de los events.
 5. Ejecutar procedimientos almacenados mediante CALL y funciones con SELECT.
 
 -- Estructura de los módulos implementados
@@ -33,14 +31,8 @@ Asociación de servicios a reservas
 - Gestión de eventos
 Programación de eventos en salones
 Relación entre eventos, salones y servicios
-- Módulo de vistas (Views)
-
-- Se implementaron vistas para facilitar consultas tales como:
-
-- V_EventosProgramados
-Muestra eventos con información de salón, fecha y estado (próximo o concluido)
-- V_EstadisticasOcupacion
-Permite analizar la ocupación de habitaciones por periodos
+- Módulo de eventos y procedimientos almacenas
+Optimizacion de consultas y facilitacion de procesos
 
 -- SCRIPT DE LA BASE DE DATOS --
 
