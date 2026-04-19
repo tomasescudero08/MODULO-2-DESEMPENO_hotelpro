@@ -1,7 +1,7 @@
 -- MODULO-2-DESEMPENO_hotelpro --
 -- taller desempeño del modulo 2, punto 5 hotelpro --
 
-Descripción general del proyecto
+-- Descripción general del proyecto
 
 Este proyecto consiste en un sistema de gestión para un hotel, que permite administrar:
 
